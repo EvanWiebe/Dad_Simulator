@@ -1,0 +1,4 @@
+gametitle Dad Simulator
+login Login
+register  Register
+invalidlogin  Your email or password is incorrect

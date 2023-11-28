@@ -1,0 +1,108 @@
+//Maybe some of this will be useful later
+
+void make_checklistitem() {
+  _add_yaml("checklistitem.yaml", {
+    {"title", quests[i].get_title()},
+    {"completed", dad.get_completed()}
+  });
+}
+void make_buildupbutton() {
+  _add_yaml("buildupbutton.yaml", {
+    {"title", BuildupQuest[i].get_title()},
+    {"time", BuildupQuest].get_time()},
+  });
+}
+void make_sideshopbutton() {
+  _add_yaml("sideshopquest.yaml", {
+    {"title", SuperQuest[i].get_title()},
+    {"time", SuperQuest[i].get_time()},
+    {"type", SuperQuest[i].get_type()},
+    {"points", SuperQuest[i].get_points()},
+    {"multiplier", SuperQuest[i].get_multiplier()}
+  });
+}
+void make_storeitem() {
+  _add_yaml("storeitem.yaml", {
+
+  });
+}
+void make_tr_quest(){
+  _add_yaml("dadboard_tr.yaml", {
+    {"position", dad.get_position()},
+    {"username", dad.get_username()},
+    {"pos_change", dad.get_position_change()},
+    {"dad_ptns", dad.get_dad_points()}
+  });
+}
+void make_tr_checklist(){
+  _add_yaml("checklist_tr.yaml", {
+    {"title", quests[i].get_title()},
+    {"completed", dad.get_completed()}
+  });  
+}
+void  make_tr_profile(){
+  _add_yaml("profile_tr",{"name",dad.getName()},{"picture" dad.getPicture}, {"Aesthetic", dad.getAesthetic}, {"Archetype", dad.getArchetype()}, {"dad_ptns", dad.get_dad_points()}});
+  //add dad elements
+}
+void make_topright() {
+  switch (i) {
+    case 0: 
+      make_tr_quest(dad);
+      break;
+    case 1:
+      make_tr_dadboard(dad);
+      break;
+    case 2:
+      make_tr_checklist(dad);
+      break;
+    case 3:
+      make_tr_profile(dad);
+      break;
+    default:
+      cerr << "Top right display error.";
+  }
+}
+
+_add_yaml("dadboarditem.yaml", {
+    {"position", dad.get_position()},
+    {"username", dad.get_username()},
+    {"pos_change", dad.get_position_change()},
+    {"image", dad.get_image()},
+    {"dad_ptns", dad.get_dad_points()},
+    {"dad_arch", dad.get_arch()}
+}
+
+Dad* calcpositions (Player* ps, int n) {
+  /// calc posiitions
+  int i, j;
+  for (i = 0; i < n - 1; i++) {
+    // Last i elements are already in place
+    for (j = 0; j < n - i - 1; j++){
+      if (ps.dads[j].get_position > ps.dads[j + 1].get_position){
+        swap(ps.dads[j].get_position, ps.dads[j + 1].get_position);
+      }
+    }
+  }
+}
+
+void make_login(){
+  _add_yaml("login.yaml",{{username, state.getUsername()}});
+  
+}
+void make_register(){
+  _add_yaml("register.yaml",{});
+}
+
+void make_aesthetic(){
+  _add_yaml("aesthetic.yaml",{{"title", dad.getTitle()},{"picture", dad.getPicture()}, {{"Aesthetic", dad.getAesthetic});
+
+
+void make_archetype_select(){
+  _add_yaml("archetype_select.yaml",{}); 
+}
+void make_transition(){
+  string summary = state.getDad().get_current_week().get_summary();
+  _add_yaml("transition.yaml", {
+    {"summary" = summary}
+  });
+}

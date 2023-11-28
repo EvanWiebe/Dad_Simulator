@@ -1,0 +1,284 @@
+==318372== Memcheck, a memory error detector
+==318372== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==318372== Using Valgrind-3.17.0 and LibVEX; rerun with -h for copyright info
+==318372== Command: ./a.out
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x412FDE: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x520236C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x413014: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x5202396: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x413014: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x52010AA: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x520157E: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x520250A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x413014: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x52010B7: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x520157E: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x520250A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x413014: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x4C367DD: operator new(unsigned long) (vg_replace_malloc.c:417)
+==318372==    by 0x520157E: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x520250A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x413014: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x52015B3: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x520250A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x413014: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x52015BD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x520250A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x413014: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x4C400EA: memmove (vg_replace_strmem.c:1289)
+==318372==    by 0x52015CD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x520250A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x413014: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x4C40146: memmove (vg_replace_strmem.c:1289)
+==318372==    by 0x52015CD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x520250A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x413014: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x4C40195: memmove (vg_replace_strmem.c:1289)
+==318372==    by 0x52015CD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x520250A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x413014: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x4C401AB: memmove (vg_replace_strmem.c:1289)
+==318372==    by 0x52015CD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x520250A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x413014: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x4C401EB: memmove (vg_replace_strmem.c:1289)
+==318372==    by 0x52015CD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x520250A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x413014: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x4C401FC: memmove (vg_replace_strmem.c:1289)
+==318372==    by 0x52015CD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x520250A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x413014: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Use of uninitialised value of size 8
+==318372==    at 0x4C40220: memmove (vg_replace_strmem.c:1289)
+==318372==    by 0x52015CD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x520250A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x413014: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Use of uninitialised value of size 8
+==318372==    at 0x4C40223: memmove (vg_replace_strmem.c:1289)
+==318372==    by 0x52015CD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x520250A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x413014: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x4C4022F: memmove (vg_replace_strmem.c:1289)
+==318372==    by 0x52015CD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x520250A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x413014: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x4C40244: memmove (vg_replace_strmem.c:1289)
+==318372==    by 0x52015CD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x520250A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x413014: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Use of uninitialised value of size 8
+==318372==    at 0x4C40250: memmove (vg_replace_strmem.c:1289)
+==318372==    by 0x52015CD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x520250A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x413014: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Use of uninitialised value of size 8
+==318372==    at 0x4C40254: memmove (vg_replace_strmem.c:1289)
+==318372==    by 0x52015CD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x520250A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x413014: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x4C4025F: memmove (vg_replace_strmem.c:1289)
+==318372==    by 0x52015CD: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x520250A: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x413014: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Use of uninitialised value of size 8
+==318372==    at 0x5202413: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x413014: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x520327C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::rfind(char const*, unsigned long, unsigned long) const (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x410C73: starts_with(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x411880: read_message_id() (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x413019: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x4C3F7CA: bcmp (vg_replace_strmem.c:1129)
+==318372==    by 0x52032A8: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::rfind(char const*, unsigned long, unsigned long) const (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x410C73: starts_with(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x411880: read_message_id() (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x413019: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Use of uninitialised value of size 8
+==318372==    at 0x4C3F7CF: bcmp (vg_replace_strmem.c:1129)
+==318372==    by 0x52032A8: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::rfind(char const*, unsigned long, unsigned long) const (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x410C73: starts_with(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x411880: read_message_id() (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x413019: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Use of uninitialised value of size 8
+==318372==    at 0x4C3F805: bcmp (vg_replace_strmem.c:1129)
+==318372==    by 0x52032A8: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::rfind(char const*, unsigned long, unsigned long) const (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x410C73: starts_with(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x411880: read_message_id() (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x413019: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Use of uninitialised value of size 8
+==318372==    at 0x4C3F820: bcmp (vg_replace_strmem.c:1129)
+==318372==    by 0x52032A8: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::rfind(char const*, unsigned long, unsigned long) const (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x410C73: starts_with(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x411880: read_message_id() (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x413019: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x411883: read_message_id() (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x413019: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x520310B: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::find(char const*, unsigned long, unsigned long) const (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x41189E: read_message_id() (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x413019: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x5203135: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::find(char const*, unsigned long, unsigned long) const (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x41189E: read_message_id() (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x413019: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x5203145: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::find(char const*, unsigned long, unsigned long) const (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x41189E: read_message_id() (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x413019: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x4C3D21A: memchr (vg_replace_strmem.c:904)
+==318372==    by 0x5203158: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::find(char const*, unsigned long, unsigned long) const (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x41189E: read_message_id() (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x413019: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x4C3D240: memchr (vg_replace_strmem.c:904)
+==318372==    by 0x5203158: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::find(char const*, unsigned long, unsigned long) const (in /usr/lib64/libstdc++.so.6.0.25)
+==318372==    by 0x41189E: read_message_id() (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x413019: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x4118AE: read_message_id() (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x413019: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x4118F1: read_message_id() (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x413019: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x4118FB: read_message_id() (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x413019: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x411B28: read_message_id() (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x413019: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x4C400EA: memmove (vg_replace_strmem.c:1289)
+==318372==    by 0x411B5B: read_message_id() (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x413019: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x4C40286: memmove (vg_replace_strmem.c:1289)
+==318372==    by 0x411B5B: read_message_id() (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x413019: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x4C4025F: memmove (vg_replace_strmem.c:1289)
+==318372==    by 0x411B5B: read_message_id() (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x413019: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Use of uninitialised value of size 8
+==318372==    at 0x411917: read_message_id() (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x413019: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+==318372== Conditional jump or move depends on uninitialised value(s)
+==318372==    at 0x41102D: ends_with(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x41194A: read_message_id() (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x413019: _read_event_info_file(char const*) (in /home/users/wiebe4/dad_sim/a.out)
+==318372==    by 0x40977D: main (display.cpp:319)
+==318372== 
+Updates
+==318372== 
+==318372== HEAP SUMMARY:
+==318372==     in use at exit: 0 bytes in 0 blocks
+==318372==   total heap usage: 190 allocs, 190 frees, 100,259,317 bytes allocated
+==318372== 
+==318372== All heap blocks were freed -- no leaks are possible
+==318372== 
+==318372== Use --track-origins=yes to see where uninitialised values come from
+==318372== For lists of detected and suppressed errors, rerun with: -s
+==318372== ERROR SUMMARY: 62 errors from 42 contexts (suppressed: 0 from 0)

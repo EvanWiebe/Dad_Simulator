@@ -1,0 +1,41 @@
+                              - View:
+                                  style:
+                                    display: flex
+                                    flexDirection: row
+                                    flex: 1
+                                    borderWidth: 5
+                                    borderColor: lightsteelblue
+                                    backgroundColor: lightsteelblue
+                                  children:
+                                    - Text:
+                                        style:
+                                          width: 45
+                                          display: flex
+                                          paddingLeft: 5
+                                          paddingRight: 5
+                                          color: white
+                                          fontSize: 30
+                                        index: {place}
+                                    - View:
+                                        style:
+                                          display: flex
+                                          borderRadius: 5
+                                          borderWidth: 20
+                                          borderColor: blue
+                                          backgroundColor: blue
+                                    - Text:
+                                        style:
+                                          display: flex
+                                          paddingLeft: 5
+                                          paddingRight: 5
+                                          color: white
+                                          fontSize: 30
+                                        index: {name}
+                                    - Text:
+                                        style:
+                                          display: flex
+                                          paddingLeft: 5
+                                          paddingRight: 5
+                                          color: white
+                                          fontSize: 30
+                                        index: {points}

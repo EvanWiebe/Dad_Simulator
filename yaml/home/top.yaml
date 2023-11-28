@@ -1,0 +1,26 @@
+            - View:
+                style:
+                  flex: 3
+                  display: flex
+                  flexDirection: row-reverse
+                  position: relative
+                  width: 100%
+                  height: 100%
+                children:
+                  - Image:
+                      source: https://static.planetminecraft.com/files/image/minecraft/project/2021/342/15006530_l.webp
+                      style:
+                        position: absolute
+                        top: 0
+                        left: 0
+                        height: 100%
+                        width: 100%
+                        # zIndex: -1
+                  - View:
+                      style:
+                        display: flex
+                        flexWrap: wrap
+                        flexDirection: column
+                        width: 50%
+                        height: 100%
+                      children:

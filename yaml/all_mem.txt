@@ -1,0 +1,6 @@
+Dad Simulator~Login~Email~Password~Enter~Register~~~~~~
+Dad Simulator~Make Account~myemail@mail.com~*********~Password Again~Submit~
+Style Select~Opt1~Opt2~Opt3~Opt4~Opt5~Continue~~~~~~~~~
+username~Achetypes~Opt1~Opt2~Opt3~Opt4~Opt5~Continue~Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde nobis voluptate officiis repellat! Repellat tempore necessitatibus odio delectus sapiente nisi.~
+Next Checklist Quest~ Side Quest~ Store~~~~~~~~~~~~~~~~
+Dad Board~Personal Information~#1~#2~#3~#4~#5~#6~#7~#8~#9~#10~Next~Mow the lawn for two hours~Clean out the gutters~Check the grill~Throw the frisbee with the kids~harpen the mower blades~Start a project you will never finish~Wash the car~Eat some lunch~

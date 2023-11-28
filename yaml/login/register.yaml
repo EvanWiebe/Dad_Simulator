@@ -1,0 +1,91 @@
+                  - View:
+                      style:
+                        borderwidth: 90%
+                        height: 20%
+                        display: flex
+                        flexDirection: column
+                        alignItems: center
+                        justifyContent: 'center'
+                      children:
+                        - Text:
+                            style:
+                              color: lemonchiffon
+                              fontSize: 40
+                            index: 14
+                            position: absolute
+                            left: 20
+                            top: 20
+                  - View:
+                      style:
+                        width: 90%
+                        height: 18%
+                        border width: 50
+                        borderWidth: 3
+                        borderColor: khaki
+                        backgroundColor: white
+                        borderRadius: 10
+                        display: flex
+                        justifyContent: center
+                      children:
+                        - Text:
+                            style:
+                              color: black
+                              fontSize: 28
+                              paddingLeft: 10
+                            index: 27    
+                  - View:
+                      style:
+                        width: 90%
+                        height: 18%
+                        border width: 50
+                        borderWidth: 3
+                        borderColor: khaki
+                        backgroundColor: white
+                        borderRadius: 10
+                        display: flex
+                        justifyContent: center
+                      children:
+                        - Text:
+                            style:
+                              color: black
+                              fontSize: 28
+                              paddingLeft: 10
+                            index: 44
+                  - View:
+                      style:
+                        width: 90%
+                        height: 18%
+                        border width: 50
+                        borderWidth: 3
+                        borderColor: khaki
+                        backgroundColor: white
+                        borderRadius: 10
+                        display: flex
+                        justifyContent: center
+                      children:
+                        - Text:
+                            style:
+                              color: lightgrey
+                              fontSize: 28
+                              paddingLeft: 10
+                            index: 54
+                  - Button:
+                      style:
+                        width: 100
+                        height: 50
+                        borderColor: khaki
+                        borderWidth: 3
+                        borderRadius: 10
+                        backgroundColor: green
+                        display: flex
+                        flexDirection: column
+                        alignItems: center
+                        justifyContent: 'center'
+                      on_touch:
+                        backgroundColor: rgb(255, 200, 0)
+                      children:
+                        - Text:
+                            style:
+                              color: white
+                              fontSize: 21
+                            index: 69

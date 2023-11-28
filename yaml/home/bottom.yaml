@@ -1,0 +1,58 @@
+            - View:
+                style:
+                  flex: 1
+                  flexDirection: row
+                  boxShadow: "0 0 20px #0004"
+                children:
+                  - Button:
+                      id: button_1
+                      style:
+                        flex: 1
+                      children:
+                        - Image:
+                            source: {checklist}
+                            style:
+                              objectFit: cover
+                              width: 100%
+                              height: 100%
+                              cursor: pointer
+                              # //borderWidth: 10
+                              # //borderColor: midnightblue
+                  - Button:
+                      id: button_2
+                      style:
+                        flex: 1
+                      children:
+                        - Image:
+                            source: {dadboard}
+                            style:
+                              objectFit: cover
+                              width: 100%
+                              height: 100%
+                              cursor: pointer
+                              # //borderWidth: 10
+                              # //borderColor: midnightblue
+                  - View:
+                      style:
+                        flex: 3
+                      children:
+                        - Image:
+                            source: https://www.smartsheet.com/sites/default/files/styles/full_width_desktop/public/IC-Number-Line-Timeline-Template-PDF.jpg?itok=C8NurgU3
+                            style:
+                              objectFit: cover
+                              width: 100%
+                              height: 100%
+                  - Button:
+                      id: button_3
+                      style:
+                        flex: 1
+                      children:
+                        - Image:
+                            source: {profile}
+                            style:
+                              objectFit: cover
+                              width: 100%
+                              height: 100%
+                              cursor: pointer
+                              # borderWidth: 10
+                              # borderColor: midnightblue

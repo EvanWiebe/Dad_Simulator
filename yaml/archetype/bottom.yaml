@@ -1,0 +1,22 @@
+            - View:
+                style:
+                  width: 100%
+                  height: 10%
+                  display: 'flex'
+                  flexDirection: row
+                  justifyContent: 'flex-end'
+                  alignItems: center
+                  background: lightsteelblue
+                  boxShadow: '0px 0px 10px #00000033'
+                children:
+                  - Button:
+                      style:
+                        padding: 5
+                        background: 'lightslategrey'
+                        opacity: 0.5
+                        color: 'white'
+                        marginRight: 20
+                        borderRadius: 3
+                      children:
+                        - Text:
+                            index: 44

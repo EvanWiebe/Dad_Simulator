@@ -1,0 +1,33 @@
+            - View:
+                style:
+                  zIndex: 2
+                  width: 100%
+                  height: 10%
+                  display: flex
+                  alignItems: center
+                  justifyContent: center
+                  background: lightsteelblue
+                  boxShadow: "0px 0px 10px #00000044"
+                children:
+                  - Text:
+                      index: 0
+                      style:
+                        color: white
+                        fontSize: 20
+                        fontWeight: bold
+                        background: steelblue
+                        paddingLeft: 200
+                        paddingRight: 200
+                        paddingTop: 2
+                        paddingBottom: 2
+                        borderRadius: 10
+            - View:
+                style:
+                  width: 100%
+                  height: 80%
+                  background: 'burlywood'
+                  display: flex
+                  flexDirection: row
+                  alignItems: center
+                  overflowX: scroll
+                children:

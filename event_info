@@ -1,0 +1,11 @@
+- message_id: 18
+- event_info:
+    type: touch_up
+    start_x: 368
+    start_y: 755
+    point_x: 368
+    point_y: 755
+    nodes:
+      - Button_18
+    id: button_1
+- first_name: 'Evan'

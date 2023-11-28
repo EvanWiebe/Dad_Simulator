@@ -1,0 +1,156 @@
+                  - View:
+                      style:
+                        width: 200
+                        height: 90%
+                        marginLeft: 20
+                        background: 'khaki'
+                        display: flex
+                        flexDirection: column
+                        alignItems: center
+                        justifyContent: 'space-around'
+                      children:
+                        - View:
+                            style:
+                              width: 90%
+                              height: 80%
+                              background: 'lemonchiffon'
+                              borderRadius: 5
+                              overflow: hidden
+                            children:
+                              - Image:
+                                  source: https://i.insider.com/5df272bffd9db22295266cd8?width=1136&format=jpeg
+                                  style:
+                                    resizeMode: cover
+                                    width: 100%
+                                    height: 100%
+                        - Text:
+                            index: 13
+                            style:
+                              height: 6%
+                              fontWeight: bold
+                              color: steelblue
+                  - View:
+                      style:
+                        width: 200
+                        height: 90%
+                        marginLeft: 20
+                        background: 'khaki'
+                        display: flex
+                        flexDirection: column
+                        alignItems: center
+                        justifyContent: 'space-around'
+                      children:
+                        - View:
+                            style:
+                              width: 90%
+                              height: 80%
+                              background: 'lemonchiffon'
+                              borderRadius: 5
+                              overflow: hidden
+                            children:
+                              - Image:
+                                  source: https://i.insider.com/5df272bffd9db22295266cd8?width=1136&format=jpeg
+                                  style:
+                                    resizeMode: cover
+                                    width: 100%
+                                    height: 100%
+                        - Text:
+                            index: 18
+                            style:
+                              height: 6%
+                              fontWeight: bold
+                              color: steelblue
+                  - View:
+                      style:
+                        width: 200
+                        height: 90%
+                        marginLeft: 20
+                        background: 'steelblue'
+                        display: flex
+                        flexDirection: column
+                        alignItems: center
+                        justifyContent: 'space-around'
+                      children:
+                        - View:
+                            style:
+                              width: 90%
+                              height: 80%
+                              background: 'lemonchiffon'
+                              borderRadius: 5
+                              overflow: hidden
+                            children:
+                              - Image:
+                                  source: https://i.insider.com/5df272bffd9db22295266cd8?width=1136&format=jpeg
+                                  style:
+                                    resizeMode: cover
+                                    width: 100%
+                                    height: 100%
+                        - Text:
+                            index: 23
+                            style:
+                              height: 6%
+                              fontWeight: bold
+                              color: white
+                  - View:
+                      style:
+                        width: 200
+                        height: 90%
+                        marginLeft: 20
+                        background: 'khaki'
+                        display: flex
+                        flexDirection: column
+                        alignItems: center
+                        justifyContent: 'space-around'
+                      children:
+                        - View:
+                            style:
+                              width: 90%
+                              height: 80%
+                              background: 'lemonchiffon'
+                              borderRadius: 5
+                              overflow: hidden
+                            children:
+                              - Image:
+                                  source: https://i.insider.com/5df272bffd9db22295266cd8?width=1136&format=jpeg
+                                  style:
+                                    resizeMode: cover
+                                    width: 100%
+                                    height: 100%
+                        - Text:
+                            index: 28
+                            style:
+                              height: 6%
+                              fontWeight: bold
+                              color: steelblue
+                  - View:
+                      style:
+                        width: 200
+                        height: 90%
+                        marginLeft: 20
+                        marginRight: 20
+                        background: 'khaki'
+                        display: flex
+                        flexDirection: column
+                        alignItems: center
+                        justifyContent: 'space-around'
+                      children:
+                        - View:
+                            style:
+                              width: 90%
+                              height: 80%
+                              background: 'lemonchiffon'
+                              borderRadius: 5
+                              overflow: hidden
+                            children:
+                              - Image:
+                                  source: https://i.insider.com/5df272bffd9db22295266cd8?width=1136&format=jpeg
+                                  style:
+                                    resizeMode: cover
+                                    width: 100%
+                                    height: 100%
+                        - Text:
+                            index: 33
+                            style:
+                              height: 6%
+                              fontWeight: bold
+                              color: steelblue

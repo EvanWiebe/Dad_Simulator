@@ -1,0 +1,17 @@
+id: 2
+name: 20
+aesthetic: 1
+archetype: 1
+dad_points: 7
+multiplier: 4
+current_week: 2
+current_buildup_quest: 1
+tl_day: 1
+tl_hours: 5
+num_store_item: 2
+store_item_levels: 10
+buildup_quest_id: 1
+quest_id: 3
+quest_id: 3
+quest_id: 3
+quest_id: 3

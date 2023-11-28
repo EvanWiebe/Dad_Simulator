@@ -1,0 +1,286 @@
+- View:
+    style:
+      display: flex
+      width: 100%
+      height: 100%
+      alignItems: center
+      justifyContent: center
+      overflow: scroll
+    children:
+      - View:
+          style:
+            width: 1200
+            height: 675
+            display: flex
+            flexDirection: column
+            # alignItems: center
+            overflow: hidden
+          children:
+            - View:
+                style:
+                  flex: 3
+                  display: flex
+                  flexDirection: row-reverse
+                  position: relative
+                  width: 100%
+                  height: 100%
+                children:
+                  - Image:
+                      source: https://static.planetminecraft.com/files/image/minecraft/project/2021/342/15006530_l.webp
+                      style:
+                        position: absolute
+                        top: 0
+                        left: 0
+                        height: 100%
+                        width: 100%
+                        # zIndex: -1
+                  - View:
+                      style:
+                        display: flex
+                        flexWrap: wrap
+                        flexDirection: column
+                        width: 50%
+                        height: 100%
+                      children:
+                        - View:
+                            style:
+                              display: flex
+                              flexDirection: column
+                              alignItems: center
+                              flex: 0.25
+                              padding: 5
+                              borderWidth: 5
+                              borderColor: navy
+                              backgroundColor: navy
+                            children:
+                              - Text:
+                                  style:
+                                    color: white
+                                    fontSize: 50
+                                  index: 200
+                        - ScrollView:
+                            style:
+                              flex: 1
+                              display: flex
+                              flexDirection: column
+                            children:
+                              - View:
+                                  style:
+                                    display: flex
+                                    flexDirection: row
+                                    height: 30%
+                                    alignItems: center
+                                    width: 100%
+                                    borderColor: lightsteelblue
+                                    backgroundColor: lightsteelblue
+                                  children:
+                                    - View:
+                                        style:
+                                          display: flex
+                                          height: 40
+                                          width: 40
+                                          borderWidth: 0
+                                          background: red
+                                          backgroundColor: red
+                                          marginLeft: 20
+                                    - Text:
+                                        style:
+                                          display: flex
+                                          paddingLeft: 5
+                                          paddingRight: 5
+                                          color: white
+                                          fontSize: 30
+                                        index: 210
+                              - View:
+                                  style:
+                                    display: flex
+                                    flexDirection: row
+                                    height: 30%
+                                    alignItems: center
+                                    width: 100%
+                                    borderColor: lightsteelblue
+                                    backgroundColor: lightsteelblue
+                                  children:
+                                    - View:
+                                        style:
+                                          display: flex
+                                          height: 40
+                                          width: 40
+                                          borderWidth: 0
+                                          background: red
+                                          backgroundColor: red
+                                          marginLeft: 20
+                                    - Text:
+                                        style:
+                                          display: flex
+                                          paddingLeft: 5
+                                          paddingRight: 5
+                                          color: white
+                                          fontSize: 30
+                                        index: 223
+                              - View:
+                                  style:
+                                    display: flex
+                                    flexDirection: row
+                                    height: 30%
+                                    alignItems: center
+                                    width: 100%
+                                    borderColor: lightsteelblue
+                                    backgroundColor: lightsteelblue
+                                  children:
+                                    - View:
+                                        style:
+                                          display: flex
+                                          height: 40
+                                          width: 40
+                                          borderWidth: 0
+                                          background: red
+                                          backgroundColor: red
+                                          marginLeft: 20
+                                    - Text:
+                                        style:
+                                          display: flex
+                                          paddingLeft: 5
+                                          paddingRight: 5
+                                          color: white
+                                          fontSize: 30
+                                        index: 240
+                              - View:
+                                  style:
+                                    display: flex
+                                    flexDirection: row
+                                    height: 30%
+                                    alignItems: center
+                                    width: 100%
+                                    borderColor: lightsteelblue
+                                    backgroundColor: lightsteelblue
+                                  children:
+                                    - View:
+                                        style:
+                                          display: flex
+                                          height: 40
+                                          width: 40
+                                          borderWidth: 0
+                                          background: red
+                                          backgroundColor: white
+                                          marginLeft: 20
+                                    - Text:
+                                        style:
+                                          display: flex
+                                          paddingLeft: 5
+                                          paddingRight: 5
+                                          color: white
+                                          fontSize: 30
+                                        index: 260
+                              - View:
+                                  style:
+                                    display: flex
+                                    flexDirection: row
+                                    height: 30%
+                                    alignItems: center
+                                    width: 100%
+                                    borderColor: lightsteelblue
+                                    backgroundColor: lightsteelblue
+                                  children:
+                                    - View:
+                                        style:
+                                          display: flex
+                                          height: 40
+                                          width: 40
+                                          borderWidth: 0
+                                          background: red
+                                          backgroundColor: white
+                                          marginLeft: 20
+                                    - Text:
+                                        style:
+                                          display: flex
+                                          paddingLeft: 5
+                                          paddingRight: 5
+                                          color: white
+                                          fontSize: 30
+                                        index: 284
+                              - View:
+                                  style:
+                                    display: flex
+                                    flexDirection: row
+                                    height: 30%
+                                    alignItems: center
+                                    width: 100%
+                                    borderColor: lightsteelblue
+                                    backgroundColor: lightsteelblue
+                                  children:
+                                    - View:
+                                        style:
+                                          display: flex
+                                          height: 40
+                                          width: 40
+                                          borderWidth: 0
+                                          background: red
+                                          backgroundColor: white
+                                          marginLeft: 20
+                                    - Text:
+                                        style:
+                                          display: flex
+                                          paddingLeft: 5
+                                          paddingRight: 5
+                                          color: white
+                                          fontSize: 30
+                                        index: 303
+            - View:
+                style:
+                  flex: 1
+                  flexDirection: row
+                  boxShadow: "0 0 20px #0004"
+                children:
+                  - Button:
+                      id: button_1
+                      style:
+                        flex: 1
+                      children:
+                        - Image:
+                            source: https://www.driversupport.com/wp-content/uploads/2019/04/red-x-on-network-icon.png
+                            style:
+                              objectFit: cover
+                              width: 100%
+                              height: 100%
+                              cursor: pointer
+                              # //borderWidth: 10
+                              # //borderColor: midnightblue
+                  - Button:
+                      id: button_2
+                      style:
+                        flex: 1
+                      children:
+                        - Image:
+                            source: https://clipart.world/wp-content/uploads/2020/12/Icon-Trophy-clipart-transparent.png
+                            style:
+                              objectFit: cover
+                              width: 100%
+                              height: 100%
+                              cursor: pointer
+                              # //borderWidth: 10
+                              # //borderColor: midnightblue
+                  - View:
+                      style:
+                        flex: 3
+                      children:
+                        - Image:
+                            source: https://www.smartsheet.com/sites/default/files/styles/full_width_desktop/public/IC-Number-Line-Timeline-Template-PDF.jpg?itok=C8NurgU3
+                            style:
+                              objectFit: cover
+                              width: 100%
+                              height: 100%
+                  - Button:
+                      id: button_3
+                      style:
+                        flex: 1
+                      children:
+                        - Image:
+                            source: https://media.newyorker.com/photos/61ae95d1c5995b40b8cb84e3/1:1/w_1707,h_1708,c_limit/Shouts-Dunigan-Questions-Texted-Dad.jpg
+                            style:
+                              objectFit: cover
+                              width: 100%
+                              height: 100%
+                              cursor: pointer
+                              # borderWidth: 10
+                              # borderColor: midnightblue

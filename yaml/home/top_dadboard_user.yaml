@@ -1,0 +1,39 @@
+                        - View:
+                            style:
+                              display: flex
+                              flexDirection: row
+                              alignItems: center
+                              flex: 0.25
+                              borderWidth: 5
+                              borderColor: navy
+                              backgroundColor: navy
+                            children:
+                              - Text:
+                                  style:
+                                    display: flex
+                                    paddingLeft: 5
+                                    paddingRight: 5
+                                    color: white
+                                    fontSize: 30
+                                  index: {usrPlace}
+                              - View:
+                                  style:
+                                    display: flex
+                                    borderRadius: 5
+                                    borderWidth: 25
+                                    borderColor: blue
+                                    backgroundColor: blue
+                              - Text:
+                                  style:
+                                    color: white
+                                    paddingLeft: 5
+                                    paddingRight: 5
+                                    fontSize: 30
+                                  index: {usrName}
+                              - Text:
+                                  style:
+                                    color: white
+                                    paddingLeft: 5
+                                    paddingRight: 5
+                                    fontSize: 30
+                                  index: {usrPoints}

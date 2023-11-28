@@ -1,0 +1,22 @@
+                              - Button:
+                                  id: {i}
+                                  style:
+                                    display: flex
+                                    alignItems: center
+                                    justifyContent: center
+                                    backgroundColor: {color}
+                                    width: 93%
+                                    height: 90%
+                                    margin: 5%
+                                    padding: 10
+                                    boxShadow: "0 0 10px #0003"
+                                    cursor: pointer
+                                  on_touch:
+                                    background: khaki
+                                  children:
+                                    - Text:
+                                        style:
+                                          color: white
+                                          fontSize: 30
+                                          textAlign: center
+                                        index: {index}

@@ -1,0 +1,18 @@
+            - View:
+                style:
+                  borderWidth: 4
+                  width: 800
+                  height: 400
+                  borderColor: khaki
+                  backgroundColor: white
+                  display: flex
+                  flexDirection: column
+                  alignItems: center
+                  justifyContent: 'space-between'
+                children:
+                 - ScrollView:
+                    style:
+                      width: 100%
+                      backgroundColor:
+                    children:
+                      

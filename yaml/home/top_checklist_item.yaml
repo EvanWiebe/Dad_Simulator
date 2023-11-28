@@ -1,0 +1,27 @@
+                              - View:
+                                  style:
+                                    display: flex
+                                    flexDirection: row
+                                    height: 30%
+                                    alignItems: center
+                                    width: 100%
+                                    borderColor: lightsteelblue
+                                    backgroundColor: lightsteelblue
+                                  children:
+                                    - View:
+                                        style:
+                                          display: flex
+                                          height: 40
+                                          width: 40
+                                          borderWidth: 0
+                                          background: red
+                                          backgroundColor: {checked}
+                                          marginLeft: 20
+                                    - Text:
+                                        style:
+                                          display: flex
+                                          paddingLeft: 5
+                                          paddingRight: 5
+                                          color: white
+                                          fontSize: 30
+                                        index: {quest}

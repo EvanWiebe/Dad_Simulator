@@ -1,0 +1,200 @@
+#include <iostream>
+#include <string>
+#include"/usr/local/cs/cs251/react.h"
+using namespace std;
+#include "State.h"
+//#include "DadStyle.h"
+//#include "DadArchetype.h"
+//#include "DadboardItem.h"
+
+Dad dad;
+
+//READ INIT START
+// void State::read_from(char *c) {
+//   state.setId(_get_int(c, 1));
+//   switch(state.getId()) {
+//     case 00: // DISPLAY LOGIN
+//       display_00();
+//       break;
+//     case 01: // DISPLAY LOGIN (REGISTER)
+//       display_01();
+//       break;
+//     case 10: // DISPLAY AESTHETIC SELECT
+//       display_10();
+//       break;
+//     case 20: // DISPLAY ARCHETYPE SELECT
+//       display_20();
+//       break;
+//     case 30: // DISPLAY TRANSITION
+//       display_30();
+//       break;
+//     case 40: // DISPLAY DADBOARD
+//       display_40();
+//       break;
+//     case 50: // DISPLAY CHECKLIST
+//       display_50();
+//       break;
+//     case 60: // DISPLAY HOME QUESTS
+//       display_60();
+//       break;
+//     case 61: // DISPLAY HOME CHECKLIST
+//       display_61();
+//       break;
+//     case 62: // DISPLAY HOME DADBOARD
+//       display_62();
+//       break;
+//     case 63: // DISPLAY HOME PROFILE
+//       display_63();
+//       break;
+// }
+//READ LOGIN
+
+
+//  WRITE INIT START
+// void State::write_to(char *c) {
+//   state.setId(_put_int(id,c,1));
+//   switch(state.getId()) {
+//     case 00: // DISPLAY LOGIN
+//       display_00();
+//       break;
+//     case 01: // DISPLAY LOGIN (REGISTER)
+//       display_01();
+//       break;
+//     case 10: // DISPLAY AESTHETIC SELECT
+//       display_10();
+//       break;
+//     case 20: // DISPLAY ARCHETYPE SELECT
+//       display_20();
+//       break;
+//     case 30: // DISPLAY TRANSITION
+//       display_30();
+//       break;
+//     case 40: // DISPLAY DADBOARD
+//       display_40();
+//       break;
+//     case 50: // DISPLAY CHECKLIST
+//       display_50();
+//       break;
+//     case 60: // DISPLAY HOME QUESTS
+//       display_60();
+//       break;
+//     case 61: // DISPLAY HOME CHECKLIST
+//       display_61();
+//       break;
+//     case 62: // DISPLAY HOME DADBOARD
+//       display_62();
+//       break;
+//     case 63: // DISPLAY HOME PROFILE
+//       display_63();
+//       break;
+// }
+// //READ LOGIN
+
+
+
+// void State::read_00(char *c) {
+//      WRONG
+//     int len;
+//     email = get_tilde_terminated_string(c);        
+//     len = email.length();
+//     c += len + 1;
+//     password = get_tilde_terminated_string(c);        
+//     len = password.length();
+//     c += len + 1;
+// }
+
+// //READ REGISTER
+// void State::read_01(char *c) {
+//     name = get_tilde_terminated_string(c);        
+//     len = name.length();
+//     c += len + 1;
+//     email = get_tilde_terminated_string(c);        
+//     len = email.length();
+//     c += len + 1;
+//     password = get_tilde_terminated_string(c);        
+//     len = password.length();
+//     c += len + 1;
+// }
+
+
+// }
+// //READ AESTHETIC
+// void State::read_10(char *c) {
+//   int len = 0;
+//   delete [] styles;
+//   styles = new DadStyle[10];
+//   for (int i = 0; i < 10; i++) {
+//     string dadstyle_text = _get_tilde_terminated_string(c)
+//     styles[i] = new DadStyle();
+//     int delimpos = 0;
+//     while (dadstyle_text[delimpos] != "|") {
+//       delimpos += 1;
+//     }
+//     string title = dadstyle_text.substr(0, delim);
+//     string desc = dadstyle_text.substr(delim+1, dadstyle.length());
+//     styles[i].setTitle(title);
+//     styles[i].setDescrition(desc);
+//     len = dadstyle_text.length();
+//     c += len + 1;
+// }
+// //READ ARCHETYPE
+// void State::read_20(char *c) {
+//     int len = 0;
+//     delete [] dad_archetypes;
+//     dad_archetypes = new DadArchetype[8];
+//     for(int i = 0; i<8; i++){
+//         dad_archetypes[i].username = _get_tilde_terminated_string(c);
+//         len = dad_archetypes[i].username.length();
+//         c += len + 1;
+//     }
+// }
+//READ TRANSITION
+void State::read_30(char *c ) {
+    //quest_number = 
+    
+}
+//READ DADBOARD
+void State::read_40(char *c) {}
+//READ CHECKLIST
+void State::read_50(char *c) {
+
+}
+//HOME QUESTS
+void State::read_60(char *c) {
+    a
+
+}
+//HOME CHECKLIST
+void State::read_61(char *c) {}
+//HOME DADBOARD
+void State::read_62(char *c) {
+
+}
+//HOME PROFILE
+void State::read_63(char *c) {
+    int len;
+    dad.getName() = _get_tilde_terminated_string(c);        
+    len = dad.getName().length();
+    c += len + 1;
+    dad.getPicture() = _get_tilde_terminated_string(c);        
+    len = dad.getPicture().length();
+    c += len + 1;
+    dad.getAesthetic() = _get_tilde_terminated_string(c);        
+    len = dad.getAesthetic().length();
+    c += len + 1;
+    dad.getArchetype() = _get_tilde_terminated_string(c);        
+    len = dad.getArchetype().length();
+    c += len + 1;
+    //dad.getTotalDadPoints() = _get_int(c,2);
+    //dad.getTotalDadPoints() = int(_get_tilde_terminated_string(c));        
+    //c += +3;
+    //dad.getMainQuestsComplete() = _get_int(c,2);        
+    //c += 3;
+    //store_items[i] = _get_tilde_terminated_string(c);        
+    //len = store_items.length();
+    //c += len + 1;
+  } 
+//}
+
+int main(){}
+    

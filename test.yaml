@@ -1,0 +1,389 @@
+- View:
+   style:
+     flex: 1
+     flexDirection: column
+     width: 800
+     height: 450
+   children:
+     - View:
+         style:
+           flex: 3
+           flexDirection: row
+         children:
+           - Image:
+               source: https://static.planetminecraft.com/files/image/minecraft/project/2021/342/15006530_l.webp
+               style:
+                 flex: 1
+ 
+           - View:
+               style:
+                 backgroundColor: powderblue
+                 display: flex
+                 flex: 1
+                 flexDirection: column
+               children:
+                 - View:
+                     style:
+                       display: flex
+                       flexDirection: column
+                       alignItems: center
+                       flex: 0.25
+                       padding: 5
+                       border width: 50
+                       borderRadius: 5
+                       borderWidth: 5
+                       borderColor: navy
+                       backgroundColor: navy
+                     children:
+                       - Text:
+                           style:
+                             color: white
+                             fontSize: 50
+                           index: 0
+                 - ScrollView:
+                     style:
+                       flex: 1
+                     children:
+                       - View:
+                           style:
+                             display: flex
+                             flexDirection: row
+                             flex: 1
+                             border width: 50
+                             borderRadius: 5
+                             borderWidth: 5
+                             borderColor: lightsteelblue
+                             backgroundColor: lightsteelblue
+                           children:
+                             - Text:
+                                 style:
+                                   display: flex
+                                   paddingLeft: 5
+                                   paddingRight: 5
+                                   color: white
+                                   fontSize: 30
+                                 index: 15
+                             - View:
+                                 style:
+                                   display: flex
+                                   borderRadius: 5
+                                   borderWidth: 20
+                                   borderColor: red
+                                   backgroundColor: white
+                             - Text:
+                                 style:
+                                   display: flex
+                                   paddingLeft: 5
+                                   paddingRight: 5
+                                   color: white
+                                   fontSize: 30
+                                 index: 10   
+                       - View:
+                           style:
+                             display: flex
+                             flexDirection: row
+                             flex: 1
+                             border width: 50
+                             borderRadius: 5
+                             borderWidth: 5
+                             borderColor: lightsteelblue
+                             backgroundColor: lightsteelblue
+                           children:
+                             - Text:
+                                 style:
+                                   display: flex
+                                   paddingLeft: 5
+                                   paddingRight: 5
+                                   color: white
+                                   fontSize: 30
+                                 index: 18
+                             - View:
+                                 style:
+                                   display: flex
+                                   borderRadius: 5
+                                   borderWidth: 20
+                                   borderColor: red
+                                   backgroundColor: white
+                             - Text:
+                                 style:
+                                   display: flex
+                                   paddingLeft: 5
+                                   paddingRight: 5
+                                   color: white
+                                   fontSize: 30
+                                 index: 10
+                       - View:
+                           style:
+                             display: flex
+                             flexDirection: row
+                             flex: 1
+                             border width: 50
+                             borderRadius: 5
+                             borderWidth: 5
+                             borderColor: lightsteelblue
+                             backgroundColor: lightsteelblue
+                           children:
+                             - Text:
+                                 style:
+                                   display: flex
+                                   paddingLeft: 5
+                                   paddingRight: 5
+                                   color: white
+                                   fontSize: 30
+                                 index: 21
+                             - View:
+                                 style:
+                                   display: flex
+                                   borderRadius: 5
+                                   borderWidth: 10
+                                   borderColor: red
+                                   backgroundColor: white
+                                 children:
+                                   - View:
+                                       style:
+                                         display: flex
+                                         width: 20
+                                         height: 20
+                                         backgroundColor: white
+                             - Text:
+                                 style:
+                                   display: flex
+                                   paddingLeft: 5
+                                   paddingRight: 5
+                                   color: white
+                                   fontSize: 30
+                                 index: 10   
+                       - View:
+                           style:
+                             display: flex
+                             flexDirection: row
+                             flex: 1
+                             border width: 50
+                             borderRadius: 5
+                             borderWidth: 5
+                             borderColor: lightsteelblue
+                             backgroundColor: lightsteelblue
+                           children:
+                             - Text:
+                                 style:
+                                   display: flex
+                                   paddingLeft: 5
+                                   paddingRight: 5
+                                   color: white
+                                   fontSize: 30
+                                 index: 24
+                             - View:
+                                 style:
+                                   display: flex
+                                   borderRadius: 5
+                                   borderWidth: 10
+                                   borderColor: red
+                                   backgroundColor: white
+                                 children:
+                                   - View:
+                                       style:
+                                         display: flex
+                                         width: 20
+                                         height: 20
+                                         backgroundColor: white
+                             - Text:
+                                 style:
+                                   display: flex
+                                   paddingLeft: 5
+                                   paddingRight: 5
+                                   color: white
+                                   fontSize: 30
+                                 index: 10
+                       - View:
+                           style:
+                             display: flex
+                             flexDirection: row
+                             flex: 1
+                             border width: 50
+                             borderRadius: 5
+                             borderWidth: 5
+                             borderColor: lightsteelblue
+                             backgroundColor: lightsteelblue
+                           children:
+                             - Text:
+                                 style:
+                                   display: flex
+                                   paddingLeft: 5
+                                   paddingRight: 5
+                                   color: white
+                                   fontSize: 30
+                                 index: 27
+                             - View:
+                                 style:
+                                   display: flex
+                                   borderRadius: 5
+                                   borderWidth: 10
+                                   borderColor: red
+                                   backgroundColor: white
+                                 children:
+                                   - View:
+                                       style:
+                                         display: flex
+                                         width: 20
+                                         height: 20
+                                         backgroundColor: white
+                             - Text:
+                                 style:
+                                   display: flex
+                                   paddingLeft: 5
+                                   paddingRight: 5
+                                   color: white
+                                   fontSize: 30
+                                 index: 10   
+                       - View:
+                           style:
+                             display: flex
+                             flexDirection: row
+                             flex: 1
+                             border width: 50
+                             borderRadius: 5
+                             borderWidth: 5
+                             borderColor: lightsteelblue
+                             backgroundColor: lightsteelblue
+                           children:
+                             - Text:
+                                 style:
+                                   display: flex
+                                   paddingLeft: 5
+                                   paddingRight: 5
+                                   color: white
+                                   fontSize: 30
+                                 index: 30
+                             - View:
+                                 style:
+                                   display: flex
+                                   borderRadius: 5
+                                   borderWidth: 10
+                                   borderColor: red
+                                   backgroundColor: white
+                                 children:
+                                   - View:
+                                       style:
+                                         display: flex
+                                         width: 20
+                                         height: 20
+                                         backgroundColor: white
+                             - Text:
+                                 style:
+                                   display: flex
+                                   paddingLeft: 5
+                                   paddingRight: 5
+                                   color: white
+                                   fontSize: 30
+                                 index: 10
+                       - View:
+                           style:
+                             display: flex
+                             flexDirection: row
+                             flex: 1
+                             border width: 50
+                             borderRadius: 5
+                             borderWidth: 5
+                             borderColor: lightsteelblue
+                             backgroundColor: lightsteelblue
+                           children:
+                             - Text:
+                                 style:
+                                   display: flex
+                                   paddingLeft: 5
+                                   paddingRight: 5
+                                   color: white
+                                   fontSize: 30
+                                 index: 33
+                             - View:
+                                 style:
+                                   display: flex
+                                   borderRadius: 5
+                                   borderWidth: 10
+                                   borderColor: red
+                                   backgroundColor: white
+                                 children:
+                                   - View:
+                                       style:
+                                         display: flex
+                                         width: 20
+                                         height: 20
+                                         backgroundColor: white
+                             - Text:
+                                 style:
+                                   display: flex
+                                   paddingLeft: 5
+                                   paddingRight: 5
+                                   color: white
+                                   fontSize: 30
+                                 index: 10   
+                       - View:
+                           style:
+                             display: flex
+                             flexDirection: row
+                             flex: 1
+                             border width: 50
+                             borderRadius: 5
+                             borderWidth: 5
+                             borderColor: lightsteelblue
+                             backgroundColor: lightsteelblue
+                           children:
+                             - Text:
+                                 style:
+                                   display: flex
+                                   paddingLeft: 5
+                                   paddingRight: 5
+                                   color: white
+                                   fontSize: 30
+                                 index: 36
+                             - View:
+                                 style:
+                                   display: flex
+                                   borderRadius: 5
+                                   borderWidth: 10
+                                   borderColor: red
+                                   backgroundColor: white
+                                 children:
+                                   - View:
+                                       style:
+                                         display: flex
+                                         width: 20
+                                         height: 20
+                                         backgroundColor: white
+                             - Text:
+                                 style:
+                                   display: flex
+                                   paddingLeft: 5
+                                   paddingRight: 5
+                                   color: white
+                                   fontSize: 30
+                                 index: 10
+ 
+     - View:
+         style:
+           flex: 1
+           flexDirection: row
+         children:
+           - Image:
+               source: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Checklist_Noun_project_5166_yellow.svg/768px-Checklist_Noun_project_5166_yellow.svg.png?20150724212244
+               style:
+                 flex: 1
+                 //borderWidth: 10
+                 //borderColor: midnightblue
+           - Image:
+               source: https://clipart.world/wp-content/uploads/2020/12/Icon-Trophy-clipart-transparent.png
+               style:
+                 flex: 1
+                 borderWidth: 10
+                 borderColor: midnightblue
+           - Image:
+               source: https://www.smartsheet.com/sites/default/files/styles/full_width_desktop/public/IC-Number-Line-Timeline-Template-PDF.jpg?itok=C8NurgU3
+               style:
+                 flex: 3
+ 
+           - Image:
+               source: https://media.newyorker.com/photos/61ae95d1c5995b40b8cb84e3/1:1/w_1707,h_1708,c_limit/Shouts-Dunigan-Questions-Texted-Dad.jpg
+               style:
+                 flex: 1
+                 //borderWidth: 10
+                 //borderColor: midnightblue

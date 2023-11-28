@@ -1,0 +1,67 @@
+                        - View:
+                            style:
+                              width: 100%
+                              height: 100%
+                              background: slategrey
+                              display: flex
+                              flexDirection: column
+                              alignItems: center
+                              boxShadow: '0 0 10px #0003'
+                            children:
+                              - View:
+                                  style:
+                                    width: 100%
+                                    flex: 1 # height
+                                    display: flex
+                                    flexDirection: row
+                                    alignItems: center
+                                    borderRadius: 5
+                                  children:
+                                    - Image:
+                                        source: {dad_image}
+                                        style:
+                                          fitContent: cover
+                                          height: 90%
+                                          flex: 1 # width
+                                          marginLeft: 10
+                                    - View:
+                                        style:
+                                          flex: 1 # width
+                                          height: 90%
+                                          display: flex
+                                          flexDirection: column
+                                          alignItems: flex-end
+                                          justifyContent: center
+                                          padding: 30
+                                          margin: 10
+                                          background: lightslategrey
+                                          color: white
+                                          borderRadius: 10
+                                          fontSize: 20
+                                        children:
+                                          - Text:
+                                              style:
+                                                fontSize: 20
+                                              index: {name}
+                                          - Text:
+                                              style:
+                                                fontSize: 20
+                                              index: {archetype}
+                                          - Text:
+                                              style:
+                                                fontSize: 20
+                                              index: {dad_points}
+                                          - Text:
+                                              style:
+                                                fontSize: 20
+                                              index: {week}
+                              - ScrollView:
+                                  style: 
+                                    width: 100%
+                                    flex: 2 # height
+                                    display: flex
+                                    flexDirection: column
+                                    background: burlywood
+                                    paddingTop: 20
+                                    paddingBottom: 10
+                                  children:
